@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-container .search-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.user-actions .login-btn {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Filters Section */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-group {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-group select, input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hotel Listings */
+.hotel-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hotel-card {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.hotel-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.rating .star {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 0.8rem;
+    color: white;
+    background-color: #ff8800;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.badge.top-rated {
+    background-color: #28a745;
+}
+
+.hotel-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.show-number, .get-deal {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.show-number {
+    background-color: #28a745;
+    color: white;
+}
+
+.get-deal {
+    background-color: #007bff;
+    color: white;
+}

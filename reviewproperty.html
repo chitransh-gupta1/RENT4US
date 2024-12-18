@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent4Us Hotel Listings</title>
+    <link rel="stylesheet" href="rev.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Rent4Us</div>
+        <div class="search-container">
+            <input type="text" placeholder="Location" class="location-input" value="Ghaziabad">
+            <input type="text" placeholder="Search Hotels..." class="search-input" value="RENT4US">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="user-actions">
+            <a href="signin.html"><button class="login-btn">Login / Sign Up</button></a>
+        </div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filters">
+        <div class="filter-group">
+            <input type="date" value="2024-12-20">
+            <input type="date" value="2024-12-21">
+        </div>
+        <div class="filter-group">
+            <select>
+                <option>Sort by</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Rating</option>
+            </select>
+            <select>
+                <option>Star Rating</option>
+                <option>1 Star</option>
+                <option>2 Star</option>
+                <option>3 Star</option>
+            </select>
+            <select>
+                <option>Budget</option>
+                <option>Under $50</option>
+                <option>$50 - $100</option>
+            </select>
+        </div>
+        <button class="filter-btn">All Filters</button>
+    </section>
+
+    <!-- Hotel Listings -->
+    <section class="hotel-listings">
+        <!-- Hotel Card 1 -->
+        <div class="hotel-card">
+            <img src="home-2.jpg" alt="Hotel Image">
+            <div class="hotel-info">
+                <h3>besch side</h3>
+                <div class="rating">
+                    <span class="star">4.2 &#9733;</span> 
+                    <span class="reviews">(756 Ratings)</span>
+                    <span class="badge popular">Popular</span>
+                </div>
+                <p>Hotels</p>
+                <div class="hotel-actions">
+                    <button class="show-number">Show Number</button>
+                    <button class="get-deal">Get Best Deal</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hotel Card 2 -->
+        <div class="hotel-card">
+            <img src="home4.jpg" alt="Hotel Image">
+            <div class="hotel-info">
+                <h3>Townhouse </h3>
+                <div class="rating">
+                    <span class="star">4.2 &#9733;</span>
+                    <span class="reviews">(348 Ratings)</span>
+                    <span class="badge top-rated">Top Rated</span>
+                </div>
+                <p>Ser Saloni Park, Ghaziabad</p>
+                <div class="hotel-actions">
+                    <button class="show-number">Show Number</button>
+                    <button class="get-deal">Get Best Deal</button>
+                </div>
+            </div>
+        </div>
+        <div class="hotel-card">
+            <img src="home5.jpg" alt="Hotel Image">
+            <div class="hotel-info">
+                <h3>Townhouse </h3>
+                <div class="rating">
+                    <span class="star">4.2 &#9733;</span>
+                    <span class="reviews">(348 Ratings)</span>
+                    <span class="badge top-rated">Top Rated</span>
+                </div>
+                <p>Ser Saloni Park, Ghaziabad</p>
+                <div class="hotel-actions">
+                    <button class="show-number">Show Number</button>
+                    <button class="get-deal">Get Best Deal</button>
+                </div>
+            </div>
+        </div>
+        <div class="hotel-card">
+            <img src="home8.jpg" alt="Hotel Image">
+            <div class="hotel-info">
+                <h3>grid house </h3>
+                <div class="rating">
+                    <span class="star">4.2 &#9733;</span>
+                    <span class="reviews">(348 Ratings)</span>
+                    <span class="badge top-rated">Top Rated</span>
+                </div>
+                <p>Akash nagar, Ghaziabad</p>
+                <div class="hotel-actions">
+                    <button class="show-number">Show Number</button>
+                    <button class="get-deal">Get Best Deal</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
